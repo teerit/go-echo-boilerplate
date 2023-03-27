@@ -1,10 +1,10 @@
 package models
 
 import (
-	BlogModels "github.com/triaton/go-echo-boilerplate/blogs/models"
-	"github.com/triaton/go-echo-boilerplate/common"
-	CommonModels "github.com/triaton/go-echo-boilerplate/common/models"
-	"github.com/triaton/go-echo-boilerplate/common/utils"
+	BlogModels "github.com/teerit/go-echo-boilerplate/blogs/models"
+	"github.com/teerit/go-echo-boilerplate/common"
+	CommonModels "github.com/teerit/go-echo-boilerplate/common/models"
+	"github.com/teerit/go-echo-boilerplate/common/utils"
 )
 
 type User struct {

@@ -1,11 +1,11 @@
 package database
 
 import (
-	BlogModels "github.com/triaton/go-echo-boilerplate/blogs/models"
-	UserModels "github.com/triaton/go-echo-boilerplate/users/models"
+	"github.com/jinzhu/gorm"
+	BlogModels "github.com/teerit/go-echo-boilerplate/blogs/models"
+	UserModels "github.com/teerit/go-echo-boilerplate/users/models"
 	"gopkg.in/gormigrate.v1"
 )
-import "github.com/jinzhu/gorm"
 
 func GetMigrations(db *gorm.DB) *gormigrate.Gormigrate {
 	return gormigrate.New(db, gormigrate.DefaultOptions, []*gormigrate.Migration{

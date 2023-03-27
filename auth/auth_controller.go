@@ -1,12 +1,13 @@
 package auth
 
 import (
+	"net/http"
+
 	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
-	"github.com/triaton/go-echo-boilerplate/common"
-	"github.com/triaton/go-echo-boilerplate/common/utils"
-	"github.com/triaton/go-echo-boilerplate/users"
-	"net/http"
+	"github.com/teerit/go-echo-boilerplate/common"
+	"github.com/teerit/go-echo-boilerplate/common/utils"
+	"github.com/teerit/go-echo-boilerplate/users"
 )
 
 type (

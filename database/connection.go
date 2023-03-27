@@ -2,11 +2,12 @@ package database
 
 import (
 	"fmt"
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
-	"github.com/triaton/go-echo-boilerplate/config"
 	"log"
 	"sync"
+
+	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/postgres"
+	"github.com/teerit/go-echo-boilerplate/config"
 )
 
 var onceDb sync.Once
